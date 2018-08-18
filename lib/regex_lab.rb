@@ -12,7 +12,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   puts text
-  result = !!text.scan(/\A[A-Z].*[.]\z/)
+  first_word_capitilized = !!text.scan(/\A[A-Z].*[.]\z/)
   puts result
   result
 end
